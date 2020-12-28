@@ -1,0 +1,53 @@
+*{
+    grid-column: 2/-3;
+}
+
+body{
+    margin: 0;
+}
+div{
+    margin: 20px;
+}
+nav{
+    background: rgb(50, 50, 50);
+    height: 80px;
+    width: 100%;
+    grid-column: 1 / last-line;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    grid-template-rows: auto;
+    margin: 0;
+}
+
+.section1{
+    display: grid;
+    grid-column: 2/-2;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 100px;
+}
+
+.smallsection1{
+    background: rgb(150, 150, 150);
+    height: 300px;
+}
+
+.smallsection2{
+    background: rgb(220, 220, 220);
+    height: 150px;
+}
+
+.smallsection3{
+    background: rgb(220, 220, 220);
+    height: 150px;
+}
+
+div.email{
+    background: rgb(99, 99, 99);
+    height: 600px;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin
+}
