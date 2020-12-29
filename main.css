@@ -2,6 +2,14 @@
     grid-column: 2/-3;
 }
 
+h1, h2{
+    font-family: "Balsamiq Sans";
+}
+
+p{
+    font-family: lora;
+}
+
 body{
     margin: 0;
 }
@@ -29,6 +37,22 @@ nav{
     margin-top: 100px;
 }
 
+.section1 div {
+    padding: 50px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+p{
+    font-size: 20px;
+}
 .smallsection1{
     background: rgb(150, 150, 150);
     height: 300px;
